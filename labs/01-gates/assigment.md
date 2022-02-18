@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   \begin{align*}
+\begin{align*}
     f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\
     f(c,b,a)_{\textup{NAND}} =&\\
     f(c,b,a)_{\textup{NOR}} =&\\
