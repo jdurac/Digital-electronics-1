@@ -21,20 +21,21 @@ end architecture dataflow;
 
 | **c** | **b** |**a** | **f(c,b,a)_ORG** | **f(c,b,a)_NAND** | **f(c,b,a)_NOR** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |  |  |
-| 0 | 0 | 1 |  |  |  |
-| 0 | 1 | 0 |  |  |  |
-| 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+| 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 0 | 1 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 0 | 0 | 0 |
 
 ### Distributive laws
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99799946/154701055-8b0853f8-249c-4fb1-97d9-b27a14970f7c.png)
+)
 
 2. Link to your public EDA Playground example:
 
