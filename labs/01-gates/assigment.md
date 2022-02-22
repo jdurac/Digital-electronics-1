@@ -4,11 +4,8 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-\begin{align*}
-    f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\
-    f(c,b,a)_{\textup{NAND}} =&\\
-    f(c,b,a)_{\textup{NOR}} =&\\
-\end{align*}
+![CodeCogsEqn](https://user-images.githubusercontent.com/99799946/155218116-d4f5b1a0-1006-4b6f-8a43-b08bb09e4796.svg)
+
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
