@@ -8,13 +8,14 @@
 
    ![image](https://user-images.githubusercontent.com/99799946/155304399-9a4683a0-bb5e-4d74-af81-f4a5c79964fb.png)
 
-   Less than:
+   Less than:![CodeCogsEqn](https://user-images.githubusercontent.com/99799946/156239764-ab3d8b19-c2df-4c6f-a38e-c25ef33b75fb.png)
+
 
    ![image](https://user-images.githubusercontent.com/99799946/155304448-6f01ab17-97a0-4840-8ed4-9306d7b5b897.png)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/comparator_min.png)
+   
 
 ### 4-bit comparator
 
