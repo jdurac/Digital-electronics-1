@@ -25,7 +25,7 @@
    Last two digits of my student ID: **xxxx46**
 
 ```vhdl
- p_stimulus : process
+    p_stimulus : process
     begin
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
@@ -39,7 +39,7 @@
                 (s_B_equals_A  = '0') and
                 (s_B_less_A    = '1'))
         -- If false, then report an error
-        report "Input combination 0001, 0011 FAILED" severity error;
+        report "Input combination 0100, 0110 FAILED" severity error;
 
  		-- Second test case
         s_b <= "0110"; 		
@@ -68,6 +68,7 @@
     end process p_stimulus;
 
 end architecture testbench;
+
 
 ```
 
