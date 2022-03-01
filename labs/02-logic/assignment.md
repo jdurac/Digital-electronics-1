@@ -25,31 +25,55 @@
    Last two digits of my student ID: **xxxx??**
 
 ```vhdl
-    p_stimulus : process
+ p_stimulus : process
     begin
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT"; -- Such as "0101" if ID = xxxx56
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";        -- Such as "0110" if ID = xxxx56
+        s_b <= "0100"; 		-- Such as "0100" if ID = xxxx46
+        s_a <= "0110";      -- Such as "0110" if ID = xxxx46
         wait for 100 ns;
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
         -- If false, then report an error
-        report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
+        report "Input combination 0001, 0011 FAILED" severity error;
 
+ 		-- Second test case
+        s_b <= "0110"; 		
+        s_a <= "0110";      
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
+        -- If false, then report an error
+        report "Input combination 0110, 0110 FAILED" severity error;
+        
+         -- Third test case
+        s_b <= "0101"; 		
+        s_a <= "0111";      
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
+        -- If false, then report an error
+        report "Input combination 0101, 0111 FAILED" severity error;
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
+
+end architecture testbench;
+
 ```
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99799946/156242586-dd132434-b053-4145-8b03-54aff7d259ea.png)
 
 3. Link to your public EDA Playground example:
 
