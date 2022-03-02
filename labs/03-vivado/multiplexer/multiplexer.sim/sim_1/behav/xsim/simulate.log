@@ -1,0 +1,28 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 00
+Time: 100 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 01
+Time: 200 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 10
+Time: 300 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 11
+Time: 400 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Note: Stimulus process started
+Time: 400 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 00
+Time: 500 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 01
+Time: 600 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 10
+Time: 700 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 11
+Time: 800 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Note: Stimulus process started
+Time: 800 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 00
+Time: 900 ns  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
+Error: Fail sel 01
+Time: 1 us  Iteration: 0  Process: /tb_mux_3bit_4to1/p_stimulus  File: D:/Documents/xdurac00/Digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_3bit_4to1.vhd
