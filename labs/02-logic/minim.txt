@@ -1,3 +1,3 @@
 SoP= B0.nA0.nA1+B1.nA1+B0.B1.nA0
 
-PoS= (nA0+nA1+nB1).(B0+nA1).(B1+nA1).(B1+nA0).(A0+B0+B1)
+PoS= (nA0+nA1).(B0+nA1).(B1+nA1).(B1+nA0).(B0+B1)
