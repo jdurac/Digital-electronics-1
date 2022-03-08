@@ -1,4 +1,4 @@
-# Lab 3: YOUR_FIRSTNAME LASTNAME
+# Lab 3: JAKUB_DURAC
 
 ### Three-bit wide 4-to-1 multiplexer
 
@@ -18,7 +18,7 @@ end architecture Behavioral;
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![image](https://user-images.githubusercontent.com/99799946/157337752-4f99b51c-bd80-4a63-bedd-f7fee347f08f.png)
+   ![image](https://user-images.githubusercontent.com/99799946/157337899-27235f09-5eba-4841-88df-70abeea5a08c.png)
 
 3. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
 
