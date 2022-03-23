@@ -17,7 +17,7 @@ The Nexys A7 board provides five push buttons for user applications.
    &nbsp;
    <!--
    https://editor.codecogs.com/
-   T_{clk}=\frac{1}{f_{clk}}=
+   T_{clk}=\frac{1}{f_{clk}}= 10 ns
    \textup{number of clk period} = \frac{\textup{time interval}}{T_{clk}}=
    -->
 
