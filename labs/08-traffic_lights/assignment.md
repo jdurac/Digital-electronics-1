@@ -95,4 +95,4 @@
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-![image](https://user-images.githubusercontent.com/99799946/161947640-e6ba8faf-b802-4a01-a579-be92ebd1d5c3.png)
+![image](https://user-images.githubusercontent.com/99799946/161948410-40b865ad-f112-4ddb-8eda-96e6c25884d9.png)
